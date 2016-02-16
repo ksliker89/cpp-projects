@@ -1,0 +1,18 @@
+Problem Statement: Write a C++ program that allows the user to enter in movie information. To do this, create a struct called netflix. The information you need from the user is: title, cast, cast names, rating and then you need to ask the user if they have another movie they want to enter.
+
+Understanding the Problem: The problem is asking me to take information from the user. The first thing I need to take in to account is bad user input. There will have to be safeguards put in place to mitigate errors. 
+
+Devising a Plan/Design: The program will look like this...
+1 - create a struct
+2 - ask the user for movie information
+3 - check user input
+4 - if user input is good continue, if not, repeat step 2
+5 - ask the user if they want to add anothere movie
+6 - if user does not want to enter another movie continue, if not, repeat step 2
+7 - print all the entered movie information to the user
+8 - end of program
+
+Testing: To test the code...
+1 - make sure that when the user enters a movie name or cast name, that the input is read as a complete string and not dependent on white space. In other words, use the getline(cin, str); function instead of just using cin.
+2- make sure that when the user enters in any numbers that the actual input matches the type of variable. In other words, don't let the user enter a char into an int variable type. 
+So to test both of these situations, you must enter movie names and cast names with separation and white space. Also, try to enter in some characters instead of numbers into the inputs that ask for a number. Make sure the program is free of errors and robust. 

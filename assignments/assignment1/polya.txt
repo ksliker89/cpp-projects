@@ -1,0 +1,29 @@
+Understanding the problem:
+
+So as I understood it, I am supposed to write a program that
+finds the max and min of every integral type. That is: int, 
+short, and long. I'm supposed to calculate this max and min 
+for both signed and unsigned numbers in these data types.
+
+
+Devising a plan:
+
+In the problem set it asks that we use sizeof() and pow().
+These two predefined functions are held in their perspective
+libraries. That is where I started my program. #include <needed_libraries>
+After that I declared all the variables that I would need and then 
+initialized them. My plan overall was just to start out using the 
+macro's and then using my knowledge of base-two numbers to 
+calculate the max and min using pow() but paying attention 
+to my signed bits. 
+
+
+Testing:
+
+For testing I basically did not wait until the last line of code
+to start breaking down the inputs and computations. After each 
+variable declaration and input I would simultaneously output the 
+variable to ensure the right numbers were in their perspective
+variable names. Then after all the computations (which I checked
+with a calculator) I would output the variable/result. 
+This was a great way to test my code efficiently and completely. 
